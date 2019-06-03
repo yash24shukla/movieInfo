@@ -1,0 +1,77 @@
+body,
+html {
+   
+    height: 100%;
+    width: 100%;
+
+}
+
+body {
+    color: #ffffff;
+
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(191, 204, 207, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(191, 204, 207, 1)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(191, 204, 207, 1) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(191, 204, 207, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(191, 204, 207, 1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(191, 204, 207, 1) 100%);
+}
+.takingInput{
+    align-content: center ;
+}
+.actorName {
+    text-align: center;
+    position: relative;
+    left: 32%;
+    margin-top: 5rem;
+    width: 30%;
+    height: 2rem;
+
+}
+
+.actorName:hover {
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c3d9ff+0,b1c8ef+41,98b0d9+100;Lavender+3D */
+background: #c3d9ff; /* Old browsers */
+background: -moz-linear-gradient(top,  #c3d9ff 0%, #b1c8ef 41%, #98b0d9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #c3d9ff 0%,#b1c8ef 41%,#98b0d9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #c3d9ff 0%,#b1c8ef 41%,#98b0d9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3d9ff', endColorstr='#98b0d9',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+.outputTable {
+    width: 100%;
+
+    
+    border :2px; 
+    border-top-style: dotted ;
+    border-color: #60a6d0;
+
+}
+.output{
+    margin-top: 6rem ;
+}
+
+.submitBtn {
+    position: relative;
+    left: 44%;
+    margin-top: 3rem ;
+    height: 2rem;
+    border-radius: 20px;
+    text-shadow:ghostwhite 10px;
+    width: 10%;     
+    background: #febbbb; /* Old browsers */
+    background: -moz-linear-gradient(top, #febbbb 0%, #fe9090 45%, #ff5c5c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+.characterList{
+    position: relative ; 
+    margin-top: 3rem ; 
+    margin-bottom: 2rem ;
+    left: 36%;
+    
+    width: 6rem;
+}

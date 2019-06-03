@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Film detective</title>
+</head>
+<body>
+    
+    <div class="contrainer">
+        <div class="takingInput">
+            <label for="actor"> Actor</label>
+            <input type="text" id="actorName" class="actorName" name="actor" placeholder="Enter The Name Of Actor">
+            <br>
+            <button class="submitBtn" onclick="machanism()">Go</button>
+
+        </div>
+
+        <div class="output">
+            
+            <table border= "2px" class="outputTable" id="outputTable">
+               <tr class="movie-heading">
+                   <th id= "movieHeading">Movie Name</th>
+                   
+               </tr>
+               <tr class="movie-names" id= "movie-names">
+                   
+               </tr>
+               
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
